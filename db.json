@@ -1,14 +1,31 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  
+{ 
+   "merchantName":"Safeway",
+   "zipCode":"98101",
+   "merchantInfo":{ 
+      "merchantLocation":[ 
+         { 
+            "locationId":"locationId101",
+            "storePhoneNumber":"4254254242",
+            "locationDescription":"Locations Desc",
+            "locationCategories":[ 
+               { 
+                  "name":"Bakery",
+                  "imageURL":"empty"
+               }
+            ],
+            "storeHours":{ 
+               "hours":"9:00-12:00",
+               "dayOfWeek":"Monday"
+            },
+            "address":"Address 101"
+         }
+      ],
+      "merchantDetails":{ 
+         "merchantName":"Safeway",
+         "merchantPhoneNumber":"4254254242",
+         "merchantId":"101",
+         "merchantDescription":"Merchant Desc"
+      }
+   }
 }
